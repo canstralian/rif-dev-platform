@@ -1,5 +1,5 @@
 [project]
-name = "rif"
+name = "rif-dev-platform"
 version = "0.1.0"
 description = "RIF Developer Platform"
 requires-python = ">=3.12"

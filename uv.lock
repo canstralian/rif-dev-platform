@@ -597,7 +597,7 @@ wheels = [
 ]
 
 [[package]]
-name = "rif"
+name = "rif-dev-platform"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
