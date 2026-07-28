@@ -3,6 +3,8 @@ from rich.console import Console
 from rif.doctor import build_report
 
 app = typer.Typer(help="RIF Developer Platform")
+from rif.commands.config import app as config_app
+app.add_typer(config_app, name="config")
 console = Console()
 
 @app.command()
